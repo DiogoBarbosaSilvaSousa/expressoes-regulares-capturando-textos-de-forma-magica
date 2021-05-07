@@ -7,3 +7,7 @@ Curso de REGEX da Alura
 * Crie expressões regulares eficientes
 * Use classes, âncoras, quantifiers e grupos
 * Execute expressões regulares na sua linguagem
+
+# Pattern (expressão regular)
+
+* \d{3}\.\d{3}\.\d{3}-\d{2}  - localiza o formato 123.456.789-00
