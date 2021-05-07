@@ -1,4 +1,4 @@
-# expressoes-regulares-capturando-textos-de-forma-magica
+# Expressões regulares: Capturando textos de forma mágica
 Curso de REGEX da Alura
 
 * Entenda o que são expressões regulares
