@@ -11,5 +11,6 @@ Curso de REGEX da Alura
 # Pattern (expressão regular)
 
 * \d{3}\.\d{3}\.\d{3}-\d{2}  - localiza o formato de um cpf 123.456.789-00
+* \d{3}\.?\d{3}\.?\d{3}[-.]?\d{2} - localiza cpf que não esteja respeitando a máscara exemplos: 12345678900 ou 123.456.789.00
 * \d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2} - localiza o formato de um cnpj 12.345.678/9000-00
 * \d{5}-\d{3} - localiza o formato do cep 12345-678
