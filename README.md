@@ -15,3 +15,4 @@ Curso de REGEX da Alura
 * \d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2} - localiza o formato de um cnpj 12.345.678/9000-00
 * \d{5}-\d{3} - localiza o formato do cep 12345-678
 * [A-Z]{3}-\d{4} - localiza placa de carros exemplo AAA-0000
+* \bPALAVRA\b - localiza um palvra em um texto
