@@ -16,3 +16,4 @@ Curso de REGEX da Alura
 * \d{5}-\d{3} - localiza o formato do cep 12345-678
 * [A-Z]{3}-\d{4} - localiza placa de carros exemplo AAA-0000
 * \bPALAVRA\b - localiza um palvra em um texto
+* ^([\w-]\.?)+@([\w-]+\.)+([A-Za-z]{2,4})+$ - validando um email
