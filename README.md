@@ -21,3 +21,10 @@ Curso de REGEX da Alura
 * <h1[^>]+>([\w\sõãí.]+)</h1> - localiza tag  \<h1 class="text-left"\>Expressões regulares\</h1\> ***(usamos um quantifier de negação)***
 * <(h[1-6]).+?>([\w\sõãí.]+)<\/\1> - localiza tag \<h1 class="text-left"\>Expressões regulares\</h1\> ***(usamos BackReference para garantir que a mesma tag vai ser usada no final)***
 * [^Z\d] - localiza todos os caracteres excluindo o que está na expressão regular exemplo se usarmos essa expressão regular neste alvo *Z171PZ7AZ23PZ7819AZ78GZ1AZ99IZ34O* você encontrará a palavra 'PAPAGAIO' pois ele excluirá da busca todas as letras Z seguidas de números
+
+# Seguem dois links interessantes:
+
+Existem uma serie de ferramentas sofisticadas na web que você pode utilizar para escrever e analisar a sua regex. Essas ferramentas vão além do nosso "testador" e dão mais dicas sobre a regex criadas.
+
+* <a href="http://regexr.com/" target="blank" rel="nofollow noopener">regexr.com</a>
+* <a href="https://regex101.com/" target="blank" rel="nofollow noopener">regex101.com/</a>
