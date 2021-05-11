@@ -17,3 +17,7 @@ Curso de REGEX da Alura
 * [A-Z]{3}-\d{4} - localiza placa de carros exemplo AAA-0000
 * \bPALAVRA\b - localiza um palvra em um texto
 * ^([\w-]\.?)+@([\w-]+\.)+([A-Za-z]{2,4})+$ - validando um email
+* <h1.+?>([\w\sõãí.]+)</h1> - localiza tag  \<h1 class="text-left"\>Expressões regulares\</h1\> ***(deixamos o quantifier preguiçoso)***
+* <h1[^>]+>([\w\sõãí.]+)</h1> - localiza tag  \<h1 class="text-left"\>Expressões regulares\</h1\> ***(usamos um quantifier de negação)***
+* <(h[1-6]).+?>([\w\sõãí.]+)<\/\1> - localiza tag \<h1 class="text-left"\>Expressões regulares\</h1\> ***(usamos BackReference para garantir que a mesma tag vai ser usada no final)***
+* [^Z\d] - localiza todos os caracteres excluindo o que está na expressão regular exemplo se usarmos essa expressão regular neste alvo *Z171PZ7AZ23PZ7819AZ78GZ1AZ99IZ34O* você encontrará a palavra 'PAPAGAIO' pois ele excluirá da busca todas as letras Z seguidas de números
